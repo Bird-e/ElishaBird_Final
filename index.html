@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="final.css">
+		<title>BlackJack!</title>
+	</head>
+	<body onload="beginGame()">
+
+		<header>
+			<h1>BlackJack</h1>	
+		</header>
+
+			<h1 id = 'dealerHand'></h1>
+		<div id = "house"></div><!-- end house -->
+			<h1 id= 'playerHand'></h1>
+			<h1 id='winnerHand'></h1>
+		<div id = "player"></div><!-- end player -->
+		<div id = 'buttonHolder'>
+			<input type="button" value="Hit" onclick="hit()">
+			<input type="button" value="Stand" onclick="stand()">
+			<input type = "button" value='New Game' onclick="clearGame()">
+			
+		</div><!-- end buttonHolder -->
+		<div id='betting'>
+			<p>Bet:$</p>
+			<input id ='betNum' type="number" min="5" value="5" oninput="validity.valid||(value='');">
+			<br>
+			<h1 id='bank'></h1>
+		</div><!-- betting -->
+		<script type="text/javascript" src="final2.js"></script>
+	</body>
+</html>

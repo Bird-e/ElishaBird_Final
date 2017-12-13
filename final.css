@@ -1,0 +1,102 @@
+
+			body{
+			background-color: #436060 ;
+			}
+
+			h1{
+				font-family: 'Lobster', cursive;
+				font-size: 45px;
+				color:#97a7a7;
+				text-align: center;
+			}
+			#betting{
+				position: fixed;
+				width: 210px;
+				height: 100px;
+				top: 25px;
+				left: 25px;
+				border: 2px dashed black;
+				border-radius: 25px;
+				box-shadow: 10px 10px 4px rgba(0, 0, 0, .5);
+				overflow: hidden;
+				background-color: rgba(67, 96, 96, .75);
+				z-index: 1;
+			}
+			#betting p{
+				margin-left: 19px;
+				position: relative;
+				top: -20px;
+				float: left;
+				font-family: 'Lobster', cursive;
+				font-size: 35px;
+				color: red;
+				
+			}
+			#winnerHand{
+				color: red;
+			}
+			header{
+				width: 100%;
+				margin-top: -65px;
+				margin-bottom: -35px;
+				background-color: #333;
+				color: red;
+			}
+			header h1{
+				color: red;
+				font-size: 99px;
+				text-shadow: 9px 9px rgba(0, 0, 0, 1);
+				margin-bottom: -5px;
+
+			}
+			#house{
+				margin-top: -25px;
+				margin-bottom: -75px;
+				margin-left: 250px;
+				height: 300px;
+			}
+				#house img{
+					margin: 0px 10px;
+					box-shadow: 8px 8px 2px rgba(0, 0, 0, .75);
+				}
+			input[type=button] {
+			    background-color: #4CAF50;
+			    border: none;
+			    color: white;
+			    font-family: 'Lobster', cursive;
+			    font-size: 25px;
+			    padding: 16px 16px;
+			    text-decoration: none;
+			    margin: 4px 10px;
+			    cursor: pointer;
+			    display: block;
+			    float: left;
+			}
+			#betNum{
+				position: relative;
+				top: 20px;
+				left: 5px;
+				width: 65px;
+				height: 25px;
+				font-size: 35px;
+				font-family: 'Lobster', cursive;
+				float: left;
+			}
+			#bank{
+				float: left;
+				font-size: 21px;
+				text-align: left;
+				margin-left: -75px;
+				margin-top: 25px;
+			}
+			#player{
+				margin-left: 250px;
+				height: 300px;
+			}
+				#player img{
+					margin: 0px 10px;
+					box-shadow: 8px 8px 2px rgba(0, 0, 0, .75);
+				}
+			#buttonHolder{
+				margin-left: 250px;
+			}
